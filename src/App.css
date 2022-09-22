@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.app{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+  padding: 20px 60px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+ color: #FFA550;
+ text-align: center;
+ padding: 10px;
+ font-style: italic;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-input{
   display: flex;
   flex-direction: column;
+  width: 500px;
+}
+
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label{
+  font-size: 25px;
+  color: #000;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgb(19, 94, 190, 0.77);
+}
+
+/* header */
+/* nav{
+  background-color: #64c0c2ba;
+  justify-content: space-around !important;
+} */
+
+.form-inline{
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+}
+
+.searchbox{
+  background-color: #212529 !important;
+  color: #FFF;
+}
+
+.nav-bag{
+  display: flex;
+  align-items: center;
+  color: #ff4e6d;
+}
+
+.bag-quantity {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 25px;
+  width: 25px;
+  background: #92ff8d;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+footer{
+  padding-top: 20px;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content{
+  background-color: #212738;
+  color: #FFF;
 }
